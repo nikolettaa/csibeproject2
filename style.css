@@ -1,0 +1,87 @@
+body{
+  
+}
+nav{
+  padding: 10px
+}
+.main{
+  background-color: #f3f3f3
+}
+.main .row .navbar-default {
+  background-color: #382c2c;
+  border: 0;
+  border-radius: 0;
+  text-align: center;
+  margin-bottom: 0
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none
+}
+.navbar-default .navbar-collapse .navbar-nav > li > a {
+  color: white;
+  opacity: 0.9;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+.navbar-default .navbar-collapse .navbar-nav > li > a:hover{
+  background-color: #802222;
+  opacity: 0.4;
+  color: black
+}
+.navbar-default .navbar-collapse .navbar-nav > li{
+  padding-right: 10px;
+  padding-left: 10px
+}
+.header{
+  background-image: url("https://gbc.blob.core.windows.net/media/img23534.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-text{
+  padding: 300px;
+  text-transform: uppercase;
+  font-size: 600%;
+  color: white;
+  
+}
+.shadow{
+    position:relative;
+    -webkit-box-shadow: 0 1px 4px rgba(25, 0, 0, 0.3);
+    box-shadow: 0 1px 20px rgba(25, 0, 0, 0.3);
+}
+.shadow:after{
+    content:"";
+    z-index: 1;
+    position:absolute;
+    top:100%;
+    bottom:0;
+    width:100%;
+    height:50px;
+    left:-10%;
+    right:-10%;
+    background:-webkit-radial-gradient(ellipse at 50% -3%, rgb(66, 76, 105), rgba(97, 97, 97, 0.0) 30%);
+    background:radial-gradient(ellipse at 50% -3%, rgb(66, 76, 105), rgba(97, 97, 97, 0.0) 30%);
+}
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+.content-container{
+ // box-shadow: 5px 5px 100px grey;
+  margin-top: 30px
+}
+.left-content h1, .right-content h1{
+  font-family: 'Slabo 27px', serif;
+  text-align: center
+}
+.right{
+  border-left: 1px solid lightgrey;
+  font-size: 16px;
+  font-family: 'Encode Sans', sans-serif;
+  text-align: justify
+}
